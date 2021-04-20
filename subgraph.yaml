@@ -467,11 +467,11 @@ dataSources:
         - TransferOwnershipEvent
         - Token
       eventHandlers:
-        - event: AddLiquidity(indexed address,uint256[2],uint256[2],uint256,uint256)
+        - event: AddLiquidity(indexed address,uint256[3],uint256[3],uint256,uint256)
           handler: handleAddLiquidity
-        - event: RemoveLiquidity(indexed address,uint256[2],uint256[2],uint256)
+        - event: RemoveLiquidity(indexed address,uint256[3],uint256[3],uint256)
           handler: handleRemoveLiquidity
-        - event: RemoveLiquidityImbalance(indexed address,uint256[2],uint256[2],uint256,uint256)
+        - event: RemoveLiquidityImbalance(indexed address,uint256[3],uint256[3],uint256,uint256)
           handler: handleRemoveLiquidityImbalance
         - event: NewAdmin(indexed address)
           handler: handleNewAdmin
