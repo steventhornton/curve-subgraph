@@ -72,12 +72,12 @@
         "indexed": true
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "token_amounts",
         "indexed": false
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "fees",
         "indexed": false
       },
@@ -104,12 +104,12 @@
         "indexed": true
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "token_amounts",
         "indexed": false
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "fees",
         "indexed": false
       },
@@ -131,12 +131,12 @@
         "indexed": true
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "token_amounts",
         "indexed": false
       },
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "fees",
         "indexed": false
       },
@@ -258,7 +258,7 @@
     ],
     "inputs": [
       {
-        "type": "uint256[2]",
+        "type": "uint256[3]",
         "name": "amounts"
       },
       {
